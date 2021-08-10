@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&family=Roboto:wght@100&display=swap');
+
+header h1{
+    color: #EEEDF0;
+    font-weight: 100;
+    font-size:5em;
+    text-align: center;
+    font-family: 'Open-sans', sans-serif;
+}
+
+body{
+    background-color: #17181F;
+}
+
+.list p{
+    color: #EEEDF0; 
+    font-size: 2.5em;
+    font-family: 'roboto','sans-serif';
+    margin:0;
+}
+
+.titre h2, .titre-top h2{
+    color:#EEEDF0;
+    font-family: 'roboto', 'sans-serif';
+    font-size:3.5em;
+    font-weight:100;
+}
+
+.list button{
+    border:none;
+    background:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list div{
+    display:inline-block;
+    margin: 2.5em;
+}
+
+.linear-gradient-playlist{
+    background:linear-gradient(135deg, hsl(236, 48%, 61%),hsl(306, 49%, 60%));
+    flex-wrap:wrap;
+    border-radius: 20%;
+
+}
+
+.linear-gradient-playlist div{
+    background:#17181F;
+    margin: 4px;
+    border-radius: 20%;
+    padding: 20px;
+    height:15%;
+}
+
+.linear-gradient-playlist div button img{
+    width:17%;
+    height:auto;
+    position: relative;
+    left: 50%;
+    margin-top: 50%;
+}
+
+.top button{
+    border:none;
+    background:none;
+}
+
+.top img, .top p{
+    display: inline-block;
+}
+
+.top p{
+    font-size: 1.5em;
+    font-family:'roboto','sans-serif';
+    color:#EEEDF0;
+    display:inline-block;
+    text-align:center;  
+    margin:0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.linear-gradient-top{
+    background: linear-gradient(90deg,hsl(236, 48%, 61%),hsl(306, 49%, 60%));
+    border-radius:2em;
+    padding: .2em;
+    margin: 1em;
+}
+
+.top{
+    background: #17181F;
+    border-radius:2em;
+    height:2.5em;
+    position: relative;
+}
+
+.top:hover{
+    margin-left:3em;
+}
+
+.play2{
+  width:17%;
+  height:auto; 
+  padding:0;
+  top:.5em;
+}
