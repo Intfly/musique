@@ -14,7 +14,7 @@ body{
 
 .list p{
     color: #EEEDF0; 
-    font-size: 2.5em;
+    font-size: 2.7em;
     font-family: 'roboto','sans-serif';
     margin:0;
     text-align:center;
@@ -53,16 +53,18 @@ a{
     margin: 4px;
     border-radius: 20%;
     padding: 20px;
-    height:10.4em;
-    width: 11em;
+    height:11.5em;
+    width: 12em;
 }
 
 .linear-gradient-playlist div button img{
     width:1.5em;
     height:auto;
     position: relative;
-    left: 10em;
-    margin-top: 6.5em;
+    left: 11em;
+    margin-top: 7em;
+    box-shadow: 0 0 40px hsl(236, 48%, 61%);
+    filter: drop-shadow(0 0 20px rgb(255, 255, 255));
 }
 
 .top button{
@@ -75,7 +77,7 @@ a{
 }
 
 .top p{
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family:'roboto','sans-serif';
     color:#EEEDF0;
     display:inline-block;
@@ -115,4 +117,9 @@ a{
   height:auto; 
   padding:0 0 0 2em;;
   
+}
+
+h2{
+    position: relative;
+    left:.7em;
 }
