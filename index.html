@@ -1,6 +1,10 @@
 <html>
     <head>
         <meta carset="UTF-8">
+        <meta property="og:url" content="https://intfly.github.io/musique">
+        <meta property="og:title" content="Musique">
+        <meta property="og:description" content="Un site de musique assez basique">
+        <meta property="og:image" content="logo.png">
         <title>Musique</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="logo.png">
@@ -16,8 +20,8 @@
             <div class="list">
                 <div class="linear-gradient-playlist">
                     <div class="playlist1">
-                        <a href="">
-                            <p>playlist 1</p>
+                        <a href="playlist1.html">
+                            <p>Anime</p>
                             <button>
                                 <img src="play.png">
                             </button>
@@ -26,8 +30,8 @@
                 </div>
                 <div class="linear-gradient-playlist">
                     <div class="playlist2">
-                        <a href="">
-                            <p>playlist 2</p>
+                        <a href="playlist2.html">
+                            <p>Rap</p>
                             <button>
                                 <img src="play.png">
                             </button>
@@ -36,8 +40,8 @@
                 </div>
                 <div class="linear-gradient-playlist">
                     <div class="playlist3">
-                        <a href="">
-                            <p>playlist 3</p>
+                        <a href="playlist3.html">
+                            <p>Rock</p>
                             <button>
                                 <img src="play.png">
                             </button>
@@ -46,8 +50,8 @@
                 </div>
                 <div class="linear-gradient-playlist">
                     <div class="playlist4">
-                        <a href="">
-                            <p>playlist 4</p>
+                        <a href="playlist4.html">
+                            <p>Chill</p>
                             <button>
                                 <img src="play.png">
                             </button>
@@ -56,8 +60,8 @@
                 </div>
                 <div class="linear-gradient-playlist">
                     <div class="playlist5">
-                        <a href="">
-                            <p>playlist 5</p>
+                        <a href="playlist5.html">
+                            <p>Zbeul</p>
                             <button>
                                 <img src="play.png">
                             </button>
@@ -76,9 +80,10 @@
                         <button>
                             <img src="play.png" class="play2">
                         </button>
-                        <img src="top-photo">
+                        <img src="top-photo.png">
                         <p>titre</p>
                         <p>auteur</p>
+                        <p>album</p>
                         <p>durée</p>
                     </div> 
                 </div>
@@ -87,9 +92,10 @@
                         <button>
                             <img src="play.png" class="play2">
                         </button>
-                        <img src="top-photo">
+                        <img src="top-photo.png">
                         <p>titre</p>
                         <p>auteur</p>
+                        <p>album</p>
                         <p>durée</p>
                     </div> 
                 </div>
@@ -98,12 +104,51 @@
                         <button>
                             <img src="play.png" class="play2">
                         </button>
-                        <img src="top-photo">
+                        <img src="top-photo.png">
                         <p>titre</p>
                         <p>auteur</p>
+                        <p>album</p>
                         <p>durée</p>
                     </div> 
                 </div>
+            </div>
+        </div>
+        <div class="nav-prog">
+            <div class="boutons">
+                <button id="prec">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-prev" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M21 5v14l-8 -7z" />
+                        <path d="M10 5v14l-8 -7z" />
+                    </svg>
+                </button>
+                <button id="pause">
+                    <img src="play.png" alt="bouton pause" >
+                </button>
+                <button id="suiv">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-player-track-next" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 5v14l8 -7z" />
+                        <path d="M14 5v14l8 -7z" />
+                      </svg>
+                </button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="sound">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M15 8a5 5 0 0 1 0 8" />
+                        <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a0.8 .8 0 0 1 1.5 .5v14a0.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="info-musique">
+                <img src="">
+                <p>Titre</p>
+                <p>Auteur</p>
             </div>
         </div>
     </body>

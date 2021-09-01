@@ -10,6 +10,8 @@ header h1{
 
 body{
     background-color: #17181F;
+    overflow-x: hidden;
+    margin:0;
 }
 
 .list p{
@@ -25,11 +27,6 @@ body{
     font-family: 'roboto', 'sans-serif';
     font-size:3.5em;
     font-weight:100;
-}
-
-.list button{
-    border:none;
-    background:none;
 }
 
 a{
@@ -57,35 +54,19 @@ a{
     width: 12em;
 }
 
+.linear-gradient-playlist div button{
+    border:none;
+    background:none;
+    position: relative;
+    left: 11em;
+    top: 7em;
+    cursor:pointer;
+}
+
 .linear-gradient-playlist div button img{
     width:1.5em;
     height:auto;
-    position: relative;
-    left: 11em;
-    margin-top: 7em;
-    box-shadow: 0 0 40px hsl(236, 48%, 61%);
-    filter: drop-shadow(0 0 20px rgb(255, 255, 255));
-}
-
-.top button{
-    border:none;
-    background:none;
-}
-
-.top img, .top p{
-    display: inline-block;
-}
-
-.top p{
-    font-size: 1.8em;
-    font-family:'roboto','sans-serif';
-    color:#EEEDF0;
-    display:inline-block;
-    text-align:center;  
-    margin:0 2.5em;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    filter: drop-shadow(0 0 20px  #fff);
 }
 
 .linear-gradient-top{
@@ -96,6 +77,7 @@ a{
     width:90%;
     position: relative;
     left:5%;
+    right:5%;
 }
 
 .top{
@@ -103,23 +85,115 @@ a{
     border-radius:2em;
     height:2.5em;
     position: relative;
-    transition: ease-in-out .5s .10s;
+    transition: ease-in-out .5s .1s;
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
 }
 
 .top:hover{
     margin-left:3em;
 }
 
+.top img, .top p{
+    display: inline-block;
+}
+
+.top p{
+    font-size: 1.8em;
+    font-family:'roboto','sans-serif';
+    color:#EEEDF0;
+    margin:0.10em 0 0 0;
+    vertical-align: middle;
+    line-height: normal;
+}
+
 .play2{
   width: 1.5em;
   height:auto; 
-  padding:0 0 0 2em;;
-  
+  padding: 0;
+  left: 10em; 
+  transition: ease-in 0.25s 0.1s;
+}
+
+.play2:hover{
+    filter: drop-shadow( 0 0 1em #83c7ff);
+}
+
+.top button{
+    border:none;
+    background:none;
+    cursor:pointer;
 }
 
 h2{
     position: relative;
     left:.7em;
+}
+
+.nav-prog .boutons, .nav-prog .progress-bar, .nav-prog .info-musique, .nav-prog .sound{
+    display: inline-block;
+}
+
+.boutons button{
+    border: none;
+    background: none;
+    cursor:pointer;
+}
+
+#pause img{
+    width:3em;
+    height:auto;
+}
+
+.nav-prog{  
+    position: fixed;
+    width:100vw; 
+    height: 7vh;
+    top:93%;
+    width:100%;
+    margin:0;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg,hsl(236, 48%, 61%),hsl(306, 49%, 60%));
+    white-space: nowrap;
+    line-height:7vh;
+
+    
+}
+
+.progress-bar{
+    position: relative;
+    width: 50%;
+    height:2.1em;
+    border-radius: 1em;
+    background: #17181F;
+}
+
+.progress{
+    width:98.5%;
+    height:60%;
+    background:linear-gradient(90deg,#bac8e0,#6a85b6);
+    margin:0;
+    position: relative;
+    left: .75%;
+    border-radius: 5em;
+    top:20%;
+}
+
+.sound button{
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+.info-musique p{
+    display: inline-block;
+    color: #EEEDF0;
+    font-family: 'roboto','sans-serif';
+    font-size:2em;
+    margin:0;
+}
+
+.info-musique p + p{
+ position:relative;
+ left: 2vw;
 }
