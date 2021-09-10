@@ -75,7 +75,7 @@ a{
 }
 
 .linear-gradient-top{
-    background: linear-gradient(90deg,hsl(236, 48%, 61%),hsl(306, 49%, 60%));
+    background: linear-gradient(270deg,hsl(236, 48%, 61%),hsl(306, 49%, 60%));
     border-radius:2em;
     padding: .2em;
     margin: 1em 0;
@@ -96,7 +96,7 @@ a{
 }
 
 .top:hover{
-    margin-left:3em;
+    margin-right:3em;
 }
 
 .top img, .top p{
@@ -198,14 +198,23 @@ h2{
     top:1.25vh;
 }
 .info-musique p{
+    position: relative;
     display: inline-block;
     color: #EEEDF0;
     font-family: 'roboto','sans-serif';
     font-size:2em;
     margin:0;
 }
-
 .info-musique p + p{
- position:relative;
- left: 2vw;
+    margin-left:3vw;
+}
+
+.info-musique img{
+    position:relative;
+    width:auto;
+    height:80%;
+    top:10%;
+    border-radius:.4em;
+    box-shadow: 0  0 1em #190148;
+    right:1vw;
 }
