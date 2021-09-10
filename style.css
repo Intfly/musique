@@ -69,6 +69,11 @@ a{
     filter: drop-shadow(0 0 20px  #fff);
 }
 
+.toptop{
+
+    margin-bottom:10vh;
+}
+
 .linear-gradient-top{
     background: linear-gradient(90deg,hsl(236, 48%, 61%),hsl(306, 49%, 60%));
     border-radius:2em;
@@ -134,6 +139,10 @@ h2{
     display: inline-block;
 }
 
+.boutons{
+    height:auto;
+}
+
 .boutons button{
     border: none;
     background: none;
@@ -164,9 +173,10 @@ h2{
 .progress-bar{
     position: relative;
     width: 50%;
-    height:2.1em;
+    height:2.5vh;
     border-radius: 1em;
     background: #17181F;
+    top:2.25vh;
 }
 
 .progress{
@@ -181,9 +191,11 @@ h2{
 }
 
 .sound button{
+    position: relative;
     background:none;
     border:none;
     cursor:pointer;
+    top:1.25vh;
 }
 .info-musique p{
     display: inline-block;
